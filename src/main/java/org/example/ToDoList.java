@@ -2,7 +2,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-class TodoList {
+public class ToDoList {
     private final List<String> items = new ArrayList<>();
     public void add(String item) {
         if (item != null) {
